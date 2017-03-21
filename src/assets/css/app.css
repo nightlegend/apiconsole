@@ -1,0 +1,76 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 200px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  /*background-color: #99a9bf;*/
+  background-image: url("../image/bkg.jpg");
+  -moz-background-size:contain;
+  -webkit-background-size:contain;
+  -o-background-size:contain;
+  background-size: contain;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+  /*background-color: #d3dce6;*/
+  background-image: url("../image/bkg2.jpg");
+  -moz-background-size:contain;
+  -webkit-background-size:contain;
+  -o-background-size:contain;
+  background-size: contain;
+}
+
+.line {
+  margin-top: 10px;
+}
+
+.time {
+  font-size: 13px;
+  color: #999;
+}
+
+.bottom {
+  margin-top: 13px;
+  line-height: 12px;
+}
+
+.button {
+  padding: 0;
+  float: right;
+}
+
+.bar {
+  margin-top: 20px;
+}
+
+.eachcard {
+  margin: 15px;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both
+}
