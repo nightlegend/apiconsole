@@ -18,6 +18,7 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
   </div>
+
 </template>
 
 <script>
@@ -25,7 +26,8 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      sidebar: false
     }
   }
 }
@@ -34,3 +36,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style src="../assets/css/index.css" scoped></style>
+<style scoped>
+  .title {
+    padding-left: 20px;
+  }
+</style>

@@ -13,6 +13,8 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "element-ui": "^1.2.5",
+    "lodash": "^4.17.4",
     "vue": "^2.2.2",
     "vue-router": "^2.2.0",
     "vuex": "^2.2.1"
@@ -78,6 +80,7 @@
     "vue-style-loader": "^2.0.0",
     "vue-template-compiler": "^2.2.4",
     "vue2-google-maps": "^0.7.1",
+    "vuetify": "^0.9.2",
     "vux": "^2.1.0",
     "webpack": "^2.2.1",
     "webpack-bundle-analyzer": "^2.2.1",

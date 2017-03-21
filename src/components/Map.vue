@@ -1,8 +1,8 @@
 <template>
   <gmap-map
     :center="center"
-    :zoom="7"
-    style="width: 500px; height: 300px"
+    :zoom="4"
+    style="width: 100%px; height: 300px"
   >
     <gmap-marker
       v-for="m in markers"
@@ -20,7 +20,7 @@
 
   Vue.use(VueGoogleMaps, {
     load: {
-      key: 'Your Key',
+      key: 'AIzaSyDGZlmy2nLNwpx-QESqRVogO4Utg7h46LE ',
       v: 'OPTIONAL VERSION NUMBER'
     }
   })
@@ -28,11 +28,11 @@
   export default {
     data () {
       return {
-        center: {lat: 10.0, lng: 10.0},
+        center: {lat: 22.4178481, lng: 114.2093172},
         markers: [{
-          position: {lat: 10.0, lng: 10.0}
+          position: {lat: 22.4178481, lng: 114.2093172}
         }, {
-          position: {lat: 11.0, lng: 11.0}
+          position: {lat: 11.0, lng: 15.0}
         }]
       }
     }
